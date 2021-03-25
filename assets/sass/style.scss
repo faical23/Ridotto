@@ -1,0 +1,23 @@
+// 1 - Utils
+@import "utils/variables";
+@import "utils/mixins";
+
+// 2 - Vendors;
+@import "vendors/bootstrap";
+
+// 3 - Base;
+@import "base/reset";
+@import "base/typography";
+
+// 4 - Layout;
+@import "layout/navbar";
+@import "layout/button";
+
+// 5 - Pages;
+@import "pages/home";
+
+body{   
+
+    // background-image: linear-gradient(#E8EFFC, #F7FCFE);
+    background-color: #F7FCFE;
+}

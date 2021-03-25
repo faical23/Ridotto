@@ -1,0 +1,100 @@
+/*=== Import Fonts popping===*/
+@font-face{
+    font-family: 'poping-Regular';
+    src:url(../fonts/poppins-1/Poppins-Regular.otf);
+}
+@font-face{
+    font-family: 'poping-Extrabold';
+    src:url(../fonts/poppins-1/Poppins-ExtraBold.otf);
+}
+@font-face{
+    font-family: 'poping-Semibold';
+    src:url(../fonts/poppins-1/Poppins-SemiBold.otf);
+}
+@font-face{
+    font-family: 'poping-Medium';
+    src:url(../fonts/poppins-1/Poppins-Medium.otf);
+}
+@font-face{
+    font-family: 'poping-Bold';
+    src:url(../fonts/poppins-1/Poppins-Bold.otf);
+}
+@font-face{
+    font-family: 'poping-iLght';
+    src:url(../fonts/poppins-1/Poppins-Light.otf);
+}
+
+
+/*=== Import Fonts popping===*/
+
+@font-face{
+    font-family: 'montserrat-bold';
+    src:url(../fonts/montserrat/Montserrat-Bold.ttf);
+}
+@font-face{
+    font-family: 'montserrat-ExtraBold';
+    src:url(../fonts/montserrat/Montserrat-ExtraBold.ttf);
+}
+@font-face{
+    font-family: 'montserrat-meduim';
+    src:url(../fonts/montserrat/Montserrat-Medium.ttf);
+}
+@font-face{
+    font-family: 'montserrat-SemiBold';
+    src:url(../fonts/montserrat/Montserrat-SemiBold.ttf);
+}
+
+
+/*=== Typography Styling ===*/
+
+* {
+	//font-family: $primary-regular, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	font-size: $size-small;
+}
+a {
+	&:hover {
+		color: red;
+		text-decoration: none;
+	}
+}
+
+
+@include for-size(phone-only) {
+	h1 {
+		font-size: $size-x-larg;
+	}
+	h2 {
+		font-size: $size-larg;
+	}
+	h3 {
+		font-size: $size-medium;
+	}
+	h4 {
+		font-size: $size-regular;
+	}
+	h5 {
+		font-size: $size-small;
+	}
+	h6 {
+		font-size: $size-x-small;
+	}
+	p {
+		font-size: $size-small;
+
+		&.semi {
+			font-size: $size-xx-small;
+		}
+		&.reg {
+			font-size: $size-xx-small;
+		}
+		&.med {
+			font-size: $size-x-small;
+		}
+		&.large {
+			font-size: $size-regular;
+		}
+	}
+}
