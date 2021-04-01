@@ -145,3 +145,12 @@
             yearly.innerHTML = daily_price(parseInt(json.pack[z].apr), yearly_ridotto)
         }
     })
+
+
+
+    /////////////:: range
+
+    let range = document.querySelector("#range_input");
+    range.oninput = function look() {
+        console.log(range.value);
+    }
